@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/JeromeJu/JeromeJu.github.io/precache-manifest.680af98b892e26cee30688e3e3baa0c7.js"
+  "www.jeromeqju.xyz/precache-manifest.33bca5e4bd3e3d56f564fc1d9ef93db8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/JeromeJu/JeromeJu.github.io/index.html", {
+workbox.routing.registerNavigationRoute("www.jeromeqju.xyz/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
